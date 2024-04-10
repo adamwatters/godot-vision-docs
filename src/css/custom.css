@@ -1,0 +1,60 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: blue;
+  --ifm-color-primary-dark: blue;
+  --ifm-color-primary-darker: blue;
+  --ifm-color-primary-darkest: blue;
+  --ifm-color-primary-light: blue;
+  --ifm-color-primary-lighter: blue;
+  --ifm-color-primary-lightest: blue;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* dark mode is currently disabled */
+/* [data-theme="dark"] {
+  --ifm-color-primary: magenta;
+  --ifm-color-primary-dark: magenta;
+  --ifm-color-primary-darker: magenta;
+  --ifm-color-primary-darkest: magenta;
+  --ifm-color-primary-light: magenta;
+  --ifm-color-primary-lighter: magenta;
+  --ifm-color-primary-lightest: magenta;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+} */
+
+header {
+  display: none !important;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  background: none;
+}
+
+.menu {
+  padding: 0.75rem !important;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 1rem 0 !important;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
