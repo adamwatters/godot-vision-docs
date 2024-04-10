@@ -68,8 +68,15 @@ const config = {
         },
         items: [
           {
+            href: "https://discord.gg/7VJe8dRa",
+            className: "header-discord-link",
+            "aria-label": "Discord server",
+            position: "right",
+          },
+          {
             href: "https://github.com/kevinw/GodotVision",
-            label: "GitHub",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
             position: "right",
           },
         ],
