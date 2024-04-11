@@ -1,6 +1,5 @@
 ---
 slug: /get-started
-sidebar_position: 2
 title: Get Started
 ---
 
@@ -88,3 +87,33 @@ Bonus points if you capture screenshots.
 When you first open the project, Xcode should download and install a few Swift Packages, including GodotVision.
 
 ![swift package dependencies](/img/ss_7.png)
+
+That should be it! Select your device or simulator, and hit play.
+
+![Xcode select device and build](/img/ss_8.png)
+
+If everything is working, you should see the example scene running on visionOS. You can drag one block and tap the other to play a sound. You should also see a small panel at the bottom front of the panel that allows you to switch between the other example scenes in the project.
+
+![a gif of the example project running on visionOS](/img/example.gif)
+
+---
+
+## Make an Update
+
+To make changes to the project, update the scene in Godot and rebuild in Xcode.
+
+Try changing the text mesh and it's material to see how it works.
+
+![visionOS screenshot of the example project with the text updated to You Are Awesome](/img/ss_9.jpeg)
+
+---
+
+## Next Steps
+
+**Congrats! You're on your way to building visionOS apps with Godot.**
+
+Now, choose your own adventure:
+
+If you're new to Godot and want to invest a couple hours building your foundation, we recommend the [3D game tutorial](https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html) in the official Godot docs.
+
+If you're ready to start building for visionOS, the [**Guides**](/docs/guides.md) section ahead contains documentation on GodotVision specific concepts.
