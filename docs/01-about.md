@@ -34,18 +34,22 @@ Consider an adventure game. The game features a map composed of tiles, and a cam
 
 **A game engine will definitely make this easier!**
 
-![a gif of the original zelda](/img/zelda.gif)
+![an animated GIF of the original Legend of Zelda for the NES](/img/zelda.gif)
+
+<small>
+*Yes, The Legend of Zelda was coded in assembly.
+</small>
 
 ---
 
 ## Why Godot?
 
-GodotVision is similair to [Unity Polyspatial](https://developer.apple.com/videos/play/wwdc2023/10088/?time=134) in both it's goals and approach.
+GodotVision is similair to [Unity Polyspatial](https://developer.apple.com/videos/play/wwdc2023/10088/?time=134) in both its goals and approach.
 
 We chose to build on Godot for a few reasons.
 
 1. Godot is fun and we like it.
 2. Godot is rapidly improving, and the community around it is growing.
-3. [Godot is Free and Open Source](https://godotengine.org/license/)
+3. Godot is [Free and Open Source](https://godotengine.org/license/)
 
 ---
