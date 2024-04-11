@@ -1,41 +1,26 @@
-# Website
+# GodotVision Docs Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus](https://docusaurus.io/).
 
-### Installation
+`npm run start` to develop
 
-```
-$ yarn
-```
+`npm run build` to create a build. For now, Adam will manually upload builds to Netlify.
 
-### Local Development
+todos:
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- [] root page share is ugly
+  - [] fix title (remove 'About')
+  - [] add a share image
+- [] guides
+  - [] index page
+  - [] volumetric windows
+  - [] playing audio
+  - [] adding GodotVision to an existing project (see Vishal's commit)
+- [] roadmap
+  - [] portals
+  - [] AR Kit (hand tracking / scene reconstruction)
+- [] technical details
+  - [] dependencies (SwiftGodot)
+  - [] update loop
+- [] license
+- [] reference this site from GodotVision and GodotVisionExample
