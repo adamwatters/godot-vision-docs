@@ -5,9 +5,18 @@ title: Technical Details
 
 # Technical Details
 
-# How Godot and RealityKit combine
+A peek under the hood!
 
-Godot has been modified to exist as an embedded library in a RealityKit app.
+
+:::note
+
+Details are changing rapidly. Check out the [repository](https://github.com/kevinw/GodotVision)!
+
+:::
+
+## How Godot and RealityKit combine
+
+Godot has been modified to exist as an embedded library in a RealityKit app (see [Dependencies](#dependencies) below).
 
 We run Godot in "`--headless`" mode ([details here](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_dedicated_servers.html)) which means that all graphics and windows are disabled.
 
@@ -17,4 +26,13 @@ When new Godot [Node](https://docs.godotengine.org/en/stable/classes/class_node.
 
 Once a frame, we stream any changed Node transforms to RealityKit to modify their positions/rotations/scales.
 
+
 ![A diagram illustrating how RealityKit's and Godot's event loops have been intertwined](/img/event-loops.jpg)
+
+## Dependencies
+
+GodotVision depends on the [SwiftGodotKit](https://github.com/migueldeicaza/SwiftGodotKit) and [SwiftGodot](https://github.com/migueldeicaza/SwiftGodot) projects.
+
+SwiftGodotKit embeds Godot in a Swift application.
+
+SwiftGodot provides bindings from Swift to Godot via Godot's [GDExtension](https://docs.godotengine.org/en/stable/tutorials/scripting/gdextension/what_is_gdextension.html) mechanism.
