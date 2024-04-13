@@ -102,7 +102,7 @@ If everything is working, you should see the example scene running on visionOS. 
 
 To make changes to the project, update the scene in Godot and rebuild in Xcode.
 
-Try changing the text mesh and it's material to see how it works.
+Try changing the text mesh and its material to see how it works.
 
 ![visionOS screenshot of the example project with the text updated to You Are Awesome](/img/ss_9.jpeg)
 
