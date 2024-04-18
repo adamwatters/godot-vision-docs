@@ -116,4 +116,4 @@ Now, choose your own adventure:
 
 If you're new to Godot and want to invest a couple hours building your foundation, we recommend the [3D game tutorial](https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html) in the official Godot docs.
 
-If you're ready to start building for visionOS, the [**Guides**](/docs/guides.md) section ahead contains documentation on GodotVision specific concepts.
+If you're ready to start building for visionOS, the [**Guides**](/guides) section ahead contains documentation on GodotVision specific concepts.

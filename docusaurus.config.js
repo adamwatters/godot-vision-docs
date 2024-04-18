@@ -68,7 +68,7 @@ const config = {
         },
         items: [
           {
-            href: "https://discord.gg/7VJe8dRa",
+            href: "https://discord.gg/XvB4dwGUtF",
             className: "header-discord-link",
             "aria-label": "Discord server",
             position: "right",
