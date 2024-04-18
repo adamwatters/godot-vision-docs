@@ -117,6 +117,10 @@ Since it's under active development, you may want to add features or make change
 1. Clone the [GodotVision](https://github.com/kevinw/GodotVision) repository next to your project.
 2. In Finder, drag the GodotVision folder onto your Xcode project's navigator/file tree on the left. This establishes a ["local project package dependency"](https://developer.apple.com/documentation/xcode/editing-a-package-dependency-as-a-local-package) override, and changes to GodotVision will have immediate effect in your project.
 
+<video controls>
+  <source src="/img/local-override.mp4" type="video/mp4"></source>
+</video>
+
 ---
 
 ## Next Steps
