@@ -108,6 +108,17 @@ Try changing the text mesh and its material to see how it works.
 
 ---
 
+## Optional: Clone GodotVision
+
+GodotVision is setup as a [Xcode package dependency](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app) in the GodotVisionExample project. This means that by default you cannot make changes to GodotVision itself.
+
+Since it's under active development, you may want to add features or make changes to the way it works for your project. You can accomplish this easily by setting up a "local project" override in Xcode:
+
+1. Clone the [GodotVision](https://github.com/kevinw/GodotVision) repository next to your project.
+2. In Finder, drag the GodotVision folder onto your Xcode project's navigator/file tree on the left. This establishes a ["local project package dependency"](https://developer.apple.com/documentation/xcode/editing-a-package-dependency-as-a-local-package) override, and changes to GodotVision will have immediate effect in your project.
+
+---
+
 ## Next Steps
 
 **Congrats! You're on your way to building visionOS apps with Godot.**
