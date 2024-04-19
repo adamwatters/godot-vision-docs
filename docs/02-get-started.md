@@ -108,6 +108,21 @@ Try changing the text mesh and its material to see how it works.
 
 ---
 
+## Optional: Clone GodotVision
+
+GodotVision is setup as a [Xcode package dependency](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app) in the GodotVisionExample project. This means that by default you cannot make changes to GodotVision itself.
+
+Since it's under active development, you may want to add features or make changes to the way it works for your project. You can accomplish this easily by setting up a "local project" override in Xcode:
+
+1. Clone the [GodotVision](https://github.com/kevinw/GodotVision) repository next to your project.
+2. In Finder, drag the GodotVision folder onto your Xcode project's navigator/file tree on the left. This establishes a ["local project package dependency"](https://developer.apple.com/documentation/xcode/editing-a-package-dependency-as-a-local-package) override, and changes to GodotVision will have immediate effect in your project.
+
+<video controls>
+  <source src="/img/local-override.mp4" type="video/mp4"></source>
+</video>
+
+---
+
 ## Next Steps
 
 **Congrats! You're on your way to building visionOS apps with Godot.**
@@ -116,4 +131,4 @@ Now, choose your own adventure:
 
 If you're new to Godot and want to invest a couple hours building your foundation, we recommend the [3D game tutorial](https://docs.godotengine.org/en/stable/getting_started/first_3d_game/index.html) in the official Godot docs.
 
-If you're ready to start building for visionOS, the [**Guides**](/docs/guides.md) section ahead contains documentation on GodotVision specific concepts.
+If you're ready to start building for visionOS, the [**Guides**](/guides) section ahead contains documentation on GodotVision specific concepts.

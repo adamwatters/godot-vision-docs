@@ -7,7 +7,6 @@ title: Technical Details
 
 A peek under the hood!
 
-
 :::note
 
 Details are changing rapidly. Check out the [repository](https://github.com/kevinw/GodotVision)!
@@ -28,6 +27,16 @@ Once a frame, we stream any changed Node transforms to RealityKit to modify thei
 
 
 ![A diagram illustrating how RealityKit's and Godot's event loops have been intertwined](/img/event-loops.jpg)
+
+## Corresponding Godot and RealityKit concepts
+
+| Godot    | RealityKit | Role |
+| -------- | ---------- | ---- |
+| [Node](https://docs.godotengine.org/en/stable/classes/class_node.html)                 | [Entity](https://developer.apple.com/documentation/realitykit/entity)  | The thing that exists in a tree (has a parent, and children), that you make up your game scene with. Each of these has a position, rotation and scale that gets applied downward in the tree. |
+|          | [Component](https://developer.apple.com/documentation/realitykit/component) | RealityKit has an [Entity-Component-System](https://developer.apple.com/documentation/realitykit/implementing-systems-for-entities-in-a-scene), but Godot does not. |
+| [Mesh](https://docs.godotengine.org/en/stable/classes/class_mesh.html)                 | [MeshResource](https://developer.apple.com/documentation/realitykit/meshresource) | The data that makes up the triangles and textures that is an object you can render in your game. |
+
+
 
 ## Dependencies
 

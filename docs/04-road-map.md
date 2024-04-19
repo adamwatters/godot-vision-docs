@@ -15,7 +15,7 @@ title: Road Map
 
 **Implement more Godot Nodes**: Some Godot nodes are currently unimplemented but would be useful/performant to have RealityKit versions of:
 
-**Static library dependencies**: Adding GodotVision as a package dependency currently means for a fresh build, you must build SwiftGodot, SwiftGodotKit, and GodotVision from source. We could provide a `.xcframework` for GodotVision with ready-to-use build artifacts ready for simulator and device builds, reducing your game's initial build time.
-
 - [GridMap](https://docs.godotengine.org/en/stable/tutorials/3d/using_gridmaps.html)
 - [MultiMeshInstance3D](https://docs.godotengine.org/en/stable/classes/class_multimeshinstance3d.html)
+
+**Static library dependencies**: Adding GodotVision as a package dependency currently means for a fresh build, you must build SwiftGodot, SwiftGodotKit, and GodotVision from source. We could provide a `.xcframework` for GodotVision with ready-to-use build artifacts ready for simulator and device builds, reducing your game's initial build time.
