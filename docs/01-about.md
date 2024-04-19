@@ -1,6 +1,9 @@
 ---
 slug: /
-title: About
+title: Build visionOS apps with Godot
+description: Develop games and apps for Apple Vision Pro with the free and open source Godot game engine.
+image: /img/social.png
+keywords: [godot, game engine, visionOS, Vision Pro, app development]
 ---
 
 # GodotVision
