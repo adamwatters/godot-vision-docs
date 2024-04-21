@@ -7,7 +7,13 @@ title: Metadata
 
 GodotVision recognizes specific metadata on your Nodes to pass additional information to RealityKit.
 
-![A screenshot of a Godot inspector window, with the mouse cursor over the "Add Metadata" button](/img/inspector_metadata.jpg)
+:::note[Adding Metadata in the Godot UI]
+
+You can add metadata from the bottom of any `Node`'s inspector window.
+
+<img alt="A screenshot of a Godot inspector window, with the mouse cursor over the 'Add Metadata' button" src="/img/inspector_metadata.jpg" height="320"></img>
+
+:::
 
 ## Recognized Metadata
 
