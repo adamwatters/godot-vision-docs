@@ -45,3 +45,5 @@ See what concepts can map cleanly to the Vision Pro world.
 ## Someday...maybe...?
 
 * Add an implementation of Godot's [high-level multiplayer](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html) based on Apple's [GroupSession](https://developer.apple.com/documentation/groupactivities/groupsession) abstraction so that making Godot experiences shared over Persona Facetime calls is effortless.
+
+* Document and simplify the process to build the whole stack, starting with Godot, so that users can easily make slim builds including [only the Godot features they need](https://docs.godotengine.org/en/stable/contributing/development/compiling/optimizing_for_size.html#disabling-unwanted-modules).
