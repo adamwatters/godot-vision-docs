@@ -8,9 +8,9 @@ This website is built using [Docusaurus](https://docusaurus.io/).
 
 todos:
 
-- [ ] root page share is ugly
-  - [ ] fix title (remove 'About')
-  - [ ] add a share image
+- [x] root page share is ugly
+  - [x] fix title (remove 'About')
+  - [x] add a share image
 - [ ] guides
   - [ ] index page
   - [ ] volumetric windows
