@@ -9,4 +9,4 @@ hide_table_of_contents: true
 - ### [Volume Camera](/guides/volume-camera)
 - ### [Spatial Gestures](/guides/gestures)
 - ### [Playing Audio (🚧 coming soon)](/guides/audio)
-- ### [Using Metadata](/guides/godot-vision-metadata)
+- ### [Using Metadata](/guides/metadata)
