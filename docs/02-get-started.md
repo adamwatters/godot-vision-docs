@@ -64,8 +64,6 @@ You should see the sample scene. Hit the play button to run it.
 
 If everything worked correctly, you'll see the scene running.
 
-Note: click events should work (the `play sound` button should play a moo sound 🐮), but the `Drag Me` button won't work when running in Godot. It will work as expected on visionOS. [We're working on it! 🚧](https://github.com/kevinw/GodotVisionExample/issues/3)
-
 ![sample scene running in godot play mode](/img/ss_5.png)
 
 ---

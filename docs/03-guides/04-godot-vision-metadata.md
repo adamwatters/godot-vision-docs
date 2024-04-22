@@ -30,3 +30,9 @@ This requires `input_ray_pickable` in [`CollisionObject3D`](https://docs.godoten
 Default value: `true`
 
 If you don't want a mesh to get a [GroundingShadowComponent](https://developer.apple.com/documentation/realitykit/groundingshadowcomponent), set this to `false`.
+
+### `gv.auto_prepare` (bool)
+
+Default value: `true`
+
+On a `AudioStreamPlayer3D`, will tell RealityKit to preload the sound specified in the `stream` property, so that the first playback of it doesn't cause a hitch.

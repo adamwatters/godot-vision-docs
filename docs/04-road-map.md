@@ -19,7 +19,7 @@ Saving a scene, or modifying a resource in the editor could show in the headset 
     <source src="/img/live_reload.mp4"></source>
 </video>
 
-### Leverage groups and layers more
+### Leverage [groups](https://docs.godotengine.org/en/stable/tutorials/scripting/groups.html) and layers more
 
 We could provide an API to prevent a subset of your Godot scene from being rendered by RealityKit by definiing a "Reality-Kit-hidden" group, for example.
 
