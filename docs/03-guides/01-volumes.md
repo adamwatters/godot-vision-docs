@@ -74,13 +74,4 @@ To ensure the expected Godot content is inside the visionOS volume, GodotVision 
 
 If you've checked your dimensions and you don't think you should be seeing this error, your volume size might fall outside the undocumented max and minimum volume sizes. All volume dimensions must fall **between 0.24 and 1.98 meters**.
 
----
-
-## In Depth Guide
-
-This guide will show you how to move, scale, and rotate the camera. It will also include positioning elements so their position remains fixed in the volume.
-
-You can see the finished result as one of the example scenes inside GodotVisionExample.
-
-### Moving the camera
 
