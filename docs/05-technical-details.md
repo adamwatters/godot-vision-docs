@@ -40,8 +40,6 @@ Once a frame, we stream any changed Node transforms to RealityKit to modify thei
 
 ## Dependencies
 
-GodotVision depends on the [SwiftGodotKit](https://github.com/migueldeicaza/SwiftGodotKit) and [SwiftGodot](https://github.com/migueldeicaza/SwiftGodot) projects.
+GodotVision depends on [SwiftGodotKit](https://github.com/migueldeicaza/SwiftGodotKit), [SwiftGodot](https://github.com/migueldeicaza/SwiftGodot)--and, of course--[Godot](https://godotengine.org).
 
-SwiftGodotKit embeds Godot in a Swift application.
-
-SwiftGodot provides bindings from Swift to Godot via Godot's [GDExtension](https://docs.godotengine.org/en/stable/tutorials/scripting/gdextension/what_is_gdextension.html) mechanism.
+SwiftGodotKit embeds Godot in a Swift application.  SwiftGodot provides bindings from Swift to Godot via Godot's [GDExtension](https://docs.godotengine.org/en/stable/tutorials/scripting/gdextension/what_is_gdextension.html) mechanism.
