@@ -32,7 +32,7 @@ RealityKit is a relatively heavyweight presence on the main thread. It could be 
 Some Godot nodes are currently unimplemented but would be useful/performant to have RealityKit versions of:
 
 - [GridMap](https://docs.godotengine.org/en/stable/tutorials/3d/using_gridmaps.html)
-- [MultiMeshInstance3D](https://docs.godotengine.org/en/stable/classes/class_multimeshinstance3d.html)
+- ~~[MultiMeshInstance3D](https://docs.godotengine.org/en/stable/classes/class_multimeshinstance3d.html)~~ Non-moving MultiMeshInstance3Ds now work. 
 
 ### Static library dependencies
 
