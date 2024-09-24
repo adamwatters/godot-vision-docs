@@ -17,7 +17,7 @@ A sample GodotVision project up and running. You can use it as a starting point 
 
 What you'll need:
 
-- [Godot 4](https://godotengine.org/download/macos/)
+- [Godot 4.2](https://godotengine.org/download/archive/4.2.2-stable/) (Note: GodotVision is not yet compatiable with Godot 4.3)
 - [XCode 15](https://developer.apple.com/xcode/)
 
 ---

@@ -14,6 +14,12 @@ keywords: [godot, game engine, visionOS, Vision Pro, app development]
 
 With **GodotVision**, you can create games and apps for Apple's [**visionOS**](https://developer.apple.com/documentation/visionos) using the [**Godot Game Engine**](https://godotengine.org/).
 
+:::note
+
+For now, GodotVision is only compatible with the older [Godot 4.2 release](https://godotengine.org/download/archive/4.2.2-stable/).
+
+:::
+
 <video loop autoPlay muted width="900" controls>
     <source src="/img/cow_castle.mov" type="video/mp4"></source>
 </video>
