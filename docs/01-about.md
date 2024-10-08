@@ -14,18 +14,12 @@ keywords: [godot, game engine, visionOS, Vision Pro, app development]
 
 With **GodotVision**, you can create games and apps for Apple's [**visionOS**](https://developer.apple.com/documentation/visionos) using the [**Godot Game Engine**](https://godotengine.org/).
 
-:::note
-
-For now, GodotVision is only compatible with the older [Godot 4.2 release](https://godotengine.org/download/archive/4.2.2-stable/).
-
-:::
-
 <video loop autoPlay muted width="900" controls>
     <source src="/img/cow_castle.mov" type="video/mp4"></source>
 </video>
 _[Defend Cow Castle](https://apps.apple.com/us/app/defend-cow-castle/id6476968953), a visionOS game made with GodotVision_
 
-GodotVision runs a [headless Godot](https://github.com/godotengine/godot/blob/a7b860250f305f6cbaf61c30f232ff3bbdfdda0b/main/main.cpp#L1284) instance that controls native [RealityKit views](https://developer.apple.com/documentation/realitykit/realityview/). Roughly speaking: Godot is the backend, RealityKit is the frontend.
+GodotVision runs a [headless Godot 4.3](https://github.com/godotengine/godot/blob/a7b860250f305f6cbaf61c30f232ff3bbdfdda0b/main/main.cpp#L1284) instance that controls native [RealityKit views](https://developer.apple.com/documentation/realitykit/realityview/). Roughly speaking: Godot is the backend, RealityKit is the frontend.
 
 You get the power of the Godot editor AND the awesome native rendering features of visionOS, e.g. [image-based-lighting](https://developer.apple.com/videos/play/wwdc2023/10095/?time=114) and foveated rendering.
 
