@@ -8,6 +8,16 @@ keywords: [godot, game engine, visionOS, Vision Pro, app development]
 
 # GodotVision
 
+<div className="hero-banner">
+  <h2 className="hero-banner__title">
+  Native visionOS support is landing in Godot Engine
+  </h2>
+  <div className="hero-banner__content">
+    <p>Check out the latest [Godot 4.5 dev 5 snapshot](https://godotengine.org/article/dev-snapshot-godot-4-5-dev-5/#native-visionos-support) for details on Apple's contributions back to Godot to bring native XR support for visionOS.</p>
+    <p>This project is going into "archive" mode.</p>
+  </div>
+</div>
+
 ---
 
 ## Introduction
